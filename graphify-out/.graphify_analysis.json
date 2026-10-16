@@ -1,0 +1,249 @@
+{
+  "communities": {
+    "0": [
+      "copy_webpack_plugin",
+      "css_loader",
+      "electron",
+      "electron_builder",
+      "package_devdependencies",
+      "package_devdependencies_copy_webpack_plugin",
+      "package_devdependencies_css_loader",
+      "package_devdependencies_electron",
+      "package_devdependencies_electron_builder",
+      "package_devdependencies_style_loader",
+      "package_devdependencies_ts_loader",
+      "package_devdependencies_types_node",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_typescript",
+      "package_devdependencies_webpack",
+      "package_devdependencies_webpack_cli",
+      "package_devdependencies_webpack_dev_server",
+      "style_loader",
+      "ts_loader",
+      "types_node",
+      "types_react",
+      "types_react_dom",
+      "typescript",
+      "webpack",
+      "webpack_cli",
+      "webpack_dev_server"
+    ],
+    "1": [
+      "ref_dom",
+      "ref_es2020",
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_declaration",
+      "tsconfig_compileroptions_esmoduleinterop",
+      "tsconfig_compileroptions_forceconsistentcasinginfilenames",
+      "tsconfig_compileroptions_ignoredeprecations",
+      "tsconfig_compileroptions_jsx",
+      "tsconfig_compileroptions_lib",
+      "tsconfig_compileroptions_module",
+      "tsconfig_compileroptions_moduleresolution",
+      "tsconfig_compileroptions_outdir",
+      "tsconfig_compileroptions_resolvejsonmodule",
+      "tsconfig_compileroptions_rootdir",
+      "tsconfig_compileroptions_skiplibcheck",
+      "tsconfig_compileroptions_strict",
+      "tsconfig_compileroptions_target"
+    ],
+    "2": [
+      "package_build",
+      "package_build_appid",
+      "package_build_directories",
+      "package_build_files",
+      "package_build_mac",
+      "package_build_productname",
+      "package_directories_output",
+      "package_mac_category",
+      "package_mac_icon",
+      "package_mac_target",
+      "ref_dir",
+      "ref_dist"
+    ],
+    "3": [
+      "clipboardy",
+      "electron_store",
+      "package_dependencies",
+      "package_dependencies_clipboardy",
+      "package_dependencies_electron_store",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "react",
+      "react_dom"
+    ],
+    "4": [
+      "package",
+      "package_author",
+      "package_description",
+      "package_keywords",
+      "package_license",
+      "package_main",
+      "package_name",
+      "package_type",
+      "package_version"
+    ],
+    "5": [
+      "src_renderer_app",
+      "src_renderer_app_app",
+      "src_renderer_app_clipping",
+      "src_renderer_app_imageclipping",
+      "src_renderer_app_textclipping",
+      "src_renderer_app_window",
+      "src_renderer_index",
+      "src_renderer_index_root"
+    ],
+    "6": [
+      "src_main",
+      "src_main_addclipping",
+      "src_main_clippinginput",
+      "src_main_createtray",
+      "src_main_createwindow",
+      "src_main_monitorclipboard",
+      "src_main_store"
+    ],
+    "7": [
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_dev_start",
+      "package_scripts_dist",
+      "package_scripts_start"
+    ],
+    "8": [
+      "webpack_config",
+      "webpack_config_copywebpackplugin",
+      "webpack_config_mainconfig",
+      "webpack_config_path",
+      "webpack_config_preloadconfig",
+      "webpack_config_rendererconfig"
+    ],
+    "9": [
+      "create_icon",
+      "create_icon_fs",
+      "create_icon_iconbuffer",
+      "create_icon_iconpath",
+      "create_icon_path"
+    ],
+    "10": [
+      "ref_node_modules",
+      "ref_src",
+      "tsconfig",
+      "tsconfig_exclude",
+      "tsconfig_include"
+    ],
+    "11": [
+      "src_globals_d",
+      "src_globals_d_css"
+    ],
+    "12": [
+      "src_renderer_index_d",
+      "src_renderer_index_d_css"
+    ],
+    "13": [
+      "src_preload"
+    ]
+  },
+  "cohesion": {
+    "0": 0.07407407407407407,
+    "1": 0.11764705882352941,
+    "2": 0.16666666666666666,
+    "3": 0.2222222222222222,
+    "4": 0.2222222222222222,
+    "5": 0.25,
+    "6": 0.42857142857142855,
+    "7": 0.3333333333333333,
+    "8": 0.3333333333333333,
+    "9": 0.4,
+    "10": 0.4,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0
+  },
+  "gods": [
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 15
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 6
+    },
+    {
+      "id": "package_build",
+      "label": "build",
+      "degree": 6
+    },
+    {
+      "id": "package_build_mac",
+      "label": "mac",
+      "degree": 4
+    },
+    {
+      "id": "src_main_addclipping",
+      "label": "addClipping()",
+      "degree": 3
+    },
+    {
+      "id": "tsconfig_compileroptions_lib",
+      "label": "lib",
+      "degree": 3
+    },
+    {
+      "id": "package_build_directories",
+      "label": "directories",
+      "degree": 2
+    },
+    {
+      "id": "package_build_files",
+      "label": "files",
+      "degree": 2
+    },
+    {
+      "id": "package_mac_target",
+      "label": "target",
+      "degree": 2
+    },
+    {
+      "id": "package_devdependencies_types_node",
+      "label": "@types/node",
+      "degree": 2
+    }
+  ],
+  "surprises": [],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `devDependencies` connect `Community 0` to `Community 4`?",
+      "why": "High betweenness centrality (0.190) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `build` connect `Community 2` to `Community 4`?",
+      "why": "High betweenness centrality (0.092) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `dependencies` connect `Community 3` to `Community 4`?",
+      "why": "High betweenness centrality (0.070) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `fs`, `path`, `iconPath` to the rest of the system?",
+      "why": "71 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

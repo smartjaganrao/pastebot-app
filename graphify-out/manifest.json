@@ -1,0 +1,82 @@
+{
+  "create-icon.js": {
+    "mtime": 1782844787.2727244,
+    "ast_hash": "6cc6a0d126a8c7cc2157874fa78631c1",
+    "semantic_hash": "6cc6a0d126a8c7cc2157874fa78631c1"
+  },
+  "package.json": {
+    "mtime": 1782850791.2590988,
+    "ast_hash": "651aa9d45cdf73702480bc2618cfc034",
+    "semantic_hash": "651aa9d45cdf73702480bc2618cfc034"
+  },
+  "release/mac-arm64/PasteBot.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/vk_swiftshader_icd.json": {
+    "mtime": 1782850810.2214587,
+    "ast_hash": "9777f008ed3e4df7a9a9abe98a6d63b5",
+    "semantic_hash": "9777f008ed3e4df7a9a9abe98a6d63b5"
+  },
+  "src/globals.d.ts": {
+    "mtime": 1782844816.539619,
+    "ast_hash": "ac082a4f7a90499faf392dd9d96674d7",
+    "semantic_hash": "ac082a4f7a90499faf392dd9d96674d7"
+  },
+  "src/main.ts": {
+    "mtime": 1782850769.3835013,
+    "ast_hash": "dfa7c394b1bbf95e12339fe4fc579bfb",
+    "semantic_hash": "dfa7c394b1bbf95e12339fe4fc579bfb"
+  },
+  "src/preload.ts": {
+    "mtime": 1782847511.0856798,
+    "ast_hash": "6f6d2d2843f009749e4ced0aa85d16d2",
+    "semantic_hash": "6f6d2d2843f009749e4ced0aa85d16d2"
+  },
+  "src/renderer/App.tsx": {
+    "mtime": 1782847503.9711115,
+    "ast_hash": "b84be7eaf0a2eb9dc1d3a38070095a21",
+    "semantic_hash": "b84be7eaf0a2eb9dc1d3a38070095a21"
+  },
+  "src/renderer/index.d.ts": {
+    "mtime": 1782844803.5025368,
+    "ast_hash": "ac082a4f7a90499faf392dd9d96674d7",
+    "semantic_hash": "ac082a4f7a90499faf392dd9d96674d7"
+  },
+  "src/renderer/index.tsx": {
+    "mtime": 1782844712.7478857,
+    "ast_hash": "d7bfbc0dad4250cbc5d5bce2fc2c4a0a",
+    "semantic_hash": "d7bfbc0dad4250cbc5d5bce2fc2c4a0a"
+  },
+  "tsconfig.json": {
+    "mtime": 1782844800.3201613,
+    "ast_hash": "ae33bc0458729b1fd92b7f166441485e",
+    "semantic_hash": "ae33bc0458729b1fd92b7f166441485e"
+  },
+  "webpack.config.js": {
+    "mtime": 1782850766.086533,
+    "ast_hash": "e1c6febf74dc77b3ef53eee45b86984f",
+    "semantic_hash": "e1c6febf74dc77b3ef53eee45b86984f"
+  },
+  "README.md": {
+    "mtime": 1782845634.9390628,
+    "ast_hash": "61d39d340431bdbc6257c763d14019ec",
+    "semantic_hash": ""
+  },
+  "release/builder-debug.yml": {
+    "mtime": 1782850811.525977,
+    "ast_hash": "460d202dcd3a0ca0f131c9866d2a8c92",
+    "semantic_hash": ""
+  },
+  "src/renderer.html": {
+    "mtime": 1782844716.0468974,
+    "ast_hash": "667db5200cd893fd8303b791ddf228b2",
+    "semantic_hash": ""
+  },
+  "src/assets/app-icon-1024.png": {
+    "mtime": 1782850731.6308455,
+    "ast_hash": "a52e8214b4c3ec97db72f55031e37acd",
+    "semantic_hash": ""
+  },
+  "src/assets/tray-icon.png": {
+    "mtime": 1782847304.273215,
+    "ast_hash": "12b3669c2bbf973f322a5f66a85b014c",
+    "semantic_hash": ""
+  }
+}

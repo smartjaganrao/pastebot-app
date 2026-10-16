@@ -1,0 +1,55 @@
+{
+  "name": "pastebot-app",
+  "version": "1.0.0",
+  "description": "A lightweight personal clipboard manager for macOS",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch",
+    "start": "npm run build && electron dist/main.js",
+    "dev-start": "electron dist/main.js",
+    "dist": "NODE_ENV=production npm run build && electron-builder --mac --publish never"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "build": {
+    "appId": "com.jaganrao.pastebot",
+    "productName": "PasteBot",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*"
+    ],
+    "mac": {
+      "icon": "src/assets/app-icon.icns",
+      "category": "public.app-category.productivity",
+      "target": [
+        "dir"
+      ]
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "copy-webpack-plugin": "^14.0.0",
+    "css-loader": "^7.1.4",
+    "electron": "^43.0.0",
+    "electron-builder": "^26.15.3",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.6.2",
+    "typescript": "^6.0.3",
+    "webpack": "^5.108.3",
+    "webpack-cli": "^7.1.0",
+    "webpack-dev-server": "^5.2.5"
+  },
+  "dependencies": {
+    "clipboardy": "^5.3.1",
+    "electron-store": "^11.0.2",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}
